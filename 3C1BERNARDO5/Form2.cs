@@ -31,6 +31,7 @@ namespace _3C1BERNARDO5
 
         private void btnDeposito_Click(object sender, EventArgs e)
         {
+            double.TryParse(txtValor.Text, out num1);
             num3 = objCalcular.deposito(num2, num1);
             lblSaldo.Text = "Saldo R$ " + num3;
             MessageBox.Show("deposito bem sucedido");
