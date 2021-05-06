@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _3C1BERNARDO5
 {
-    class metoto
+    class ContaBancaria
     {
         public double saque(double x, double y) 
         {

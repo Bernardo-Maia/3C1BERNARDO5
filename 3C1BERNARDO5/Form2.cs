@@ -23,7 +23,7 @@ namespace _3C1BERNARDO5
             num2 = saldo;
         }
 
-        metoto objCalcular = new metoto();
+        ContaBancaria objCalcular = new ContaBancaria();
         private void label5_Click(object sender, EventArgs e)
         {
 
